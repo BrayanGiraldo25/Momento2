@@ -36,10 +36,14 @@ console.log("Total de Gastos en el mes:" + "\nAlimentacion: " + Alimentacion + "
 
 if (DineroSobrante < 200000){
     alert("Tu total de dinero que te sobra es muy poco");
+    console.log("Tu total de dinero que te sobra es muy poco")
 } else if(DineroSobrante > 150000 && DineroSobrante  <= 200000){
     alert("Te sobra muy poco dinero para tus gustos")
+    console.log("Te sobra muy poco dinero para tus gustos")
 } else if(DineroSobrante < 150000 && DineroSobrante >= 100000){
     alert("Casi no te sobra el dinero, debes encontrar una mejor estrategia")
+    console.log("Casi no te sobra el dinero, debes encontrar una mejor estrategia")
 } else if(DineroSobrante < 100000){
     alert("Estas en la pobreza");
+    console.log("Estas en la pobreza");
 }
